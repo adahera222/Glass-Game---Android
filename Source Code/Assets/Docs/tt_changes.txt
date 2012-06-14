@@ -1,0 +1,36 @@
+
+
+menu	- start
+		- level menu
+			level names(add images)
+			high scores for each level
+			tilt to move
+	fps boost
+	
+	sound
+		- in game
+			-buttons
+			-collissions and breaking
+			
+		
+	vibration on hit
+	
+	*******************************************DONE***************************************************
+	2 sec for logo //done
+				-In game
+					top left small button(pause) //* DONE
+					pop up (resume/restart/menu)
+					no of ball remainin top right
+					button press to power up 		*//
+	- options		//done
+		- difficulty 	(easy/medium/hard)
+		- sound		(on/off)
+		- vibration	(on/off)
+		- back
+	- exit
+		- pop up(are you sure?)
+		
+	camera follow stop when hit
+	Sound
+		- buttons in menu
+		- back ground music

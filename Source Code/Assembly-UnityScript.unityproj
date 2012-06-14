@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{90DA6D1F-78B8-83F8-3863-A31D3BBCB1B4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_4_2;UNITY_3_4;UNITY_EDITOR;ENABLE_PROFILER;UNITY_ANDROID;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_NETWORK;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AccDemo.js" />
+     <Compile Include="Assets\Scripts\AnimatedTextureUV.js" />
+     <Compile Include="Assets\Scripts\AutoDestroy.js" />
+     <Compile Include="Assets\Scripts\BackgroundSound.js" />
+     <Compile Include="Assets\Scripts\BallHitSound.js" />
+     <Compile Include="Assets\Scripts\BreakVase.js" />
+     <Compile Include="Assets\Scripts\DifficultyMenu.js" />
+     <Compile Include="Assets\Scripts\GUIMenu.js" />
+     <Compile Include="Assets\Scripts\JukeBox.js" />
+     <Compile Include="Assets\Scripts\L2TabBehav.js" />
+     <Compile Include="Assets\Scripts\L2TinBehav.js" />
+     <Compile Include="Assets\Scripts\LevelMenu.js" />
+     <Compile Include="Assets\Scripts\LogoLoad.js" />
+     <Compile Include="Assets\Scripts\MainMenu.js" />
+     <Compile Include="Assets\Scripts\OptionsScript.js" />
+     <Compile Include="Assets\Scripts\OutOfBound.js" />
+     <Compile Include="Assets\Scripts\Test.js" />
+     <Compile Include="Assets\Scripts\TinCollisionSound.js" />
+     <Compile Include="Assets\Scripts\WindSim.js" />
+     <Compile Include="Assets\Scripts\shootAndr.js" />
+     <None Include="Assets\Docs\tt_changes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3E6D823E-4733-A470-ABF3-AE439728949A}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{0FBE8099-F792-1387-BA33-CB4BD7B72942}</Project>
+      <Name>Assembly-UnityScript-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

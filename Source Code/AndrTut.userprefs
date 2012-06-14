@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BreakVase.js">
+    <Files>
+      <File FileName="Assets\Docs\tt_changes.txt" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TinCollisionSound.js" Line="24" Column="24" />
+      <File FileName="Assets\Scripts\BreakVase.js" Line="56" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
